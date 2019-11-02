@@ -8,7 +8,7 @@
 	"repository": "https://github.com/Stickerpants/heroku-nginx-rp",
 	"buildpacks": [
 		{
-			"url": "https://github.com/heroku/heroku-buildpack-nginx.git"
+			"url": "https://github.com/Stickerpants/heroku-buildpack-nginx.git"
 		}
 	],
 	"env": {
