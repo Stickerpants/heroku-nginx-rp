@@ -33,7 +33,7 @@ http {
 
     location / {
       sub_filter_once off;
-      sub_filter '</body>' '<p style="position: absolute; top: 0; left: 0; z-index: 9999999 !important;">⭐</p></body>';
+      sub_filter '</body>' '<p>This site was made with ❤️ by the local community who care about small businesses.</p></body>';
 
       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
       proxy_set_header Host $proxy_host;
